@@ -1,0 +1,57 @@
+$colorPrincipal: #579684;
+$colorSecundario: #8AA678;
+$tipografiaTitulos: 'Playfair Display', serif;
+$tipografiaBody: 'Mulish', sans-serif;
+
+
+.container-fluid {
+    background-color:aliceblue;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    color: $colorPrincipal;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $colorPrincipal;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link  {
+    background-color: $colorPrincipal;
+    color: #ffffff;
+    border-radius: 10%;
+}
+
+.dropdown-item {
+    font-size: 12pt;
+}
+
+.dropdown-item:hover {
+    font-size: 12pt;
+    background-color:$colorPrincipal;
+    color: #ffffff;
+}
+
+
+.fa-regular.fa-cart-shopping{
+    font-size: 25px;
+    cursor: pointer;
+    color:dimgray;
+    font-weight: 600;
+}
+
+.circle{
+    display: inline;
+    position: relative;
+    background-color: #8AA678;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 9px;
+    bottom: 20px;
+    right: 10px;
+}

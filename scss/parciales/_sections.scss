@@ -1,0 +1,61 @@
+$colorPrincipal: #579684;
+$colorSecundario: #8AA678;
+$tipografiaTitulos: 'Playfair Display', serif;
+$tipografiaBody: 'Mulish', sans-serif;
+
+
+.section {
+    background: $colorPrincipal;
+    background: radial-gradient(circle, $colorPrincipal) 0%, ($colorPrincipal,#ffffff);
+    padding-left: 7rem;
+    padding-right: 8rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    color: #ffffff;
+
+    &-informative{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 1fr;
+        background-color: rgb(198, 201, 200);
+        width:auto;
+        height: 120px;
+        text-align: center;
+        padding: 1rem;
+        margin-bottom: 2rem;
+
+        &-banner{
+            width:auto;
+            height: 120px;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__texto{
+        text-align:center;
+        color:#ffffff;
+        justify-content: right;
+        margin-bottom: 40px;
+        margin-left: 1rem;
+    }
+}
+ 
+
+.h1__contacto {
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.fa-solid {
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 0.5rem;      
+    }
+
+.fa-brands{
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,65 @@
+$colorPrincipal: #579684;
+$colorSecundario: #8AA678;
+$colorTerciario: #A3BEB5;
+$tipografiaTitulos: 'Playfair Display', serif;
+$tipografiaBody: 'Mulish', sans-serif;
+
+
+.breadcrumb{
+    font-family: $tipografiaBody;
+    color: #579684;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 10pt;
+    text-decoration: none;
+
+    &-item{
+        color: #8AA678;
+        text-decoration: none;
+    }
+
+    &-item__active{
+        color: #579684;
+    }
+}
+
+.breadcrumb-item:hover{
+    color: black;
+}
+
+.btn-link{
+    font-family: $tipografiaBody;
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    margin-bottom: 0%;
+    padding-left: 0 !important;
+}
+.btn-link:hover{
+    color: $colorPrincipal;
+}
+
+.mb-4{
+    margin-bottom: 0.5rem !important;
+}
+
+
+.filtro{
+    visibility: visible;
+}
+
+.lista-filtro{
+    padding-left: 0;
+}
+
+.list-text{
+    font-family: $tipografiaBody;
+    color: black;
+    font-size: 10pt;
+    margin-bottom: 0;
+}
+
+.form-check-input:checked {
+    background-color: #8AA678;
+    border-color: #8AA678;
+}

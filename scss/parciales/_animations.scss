@@ -1,0 +1,26 @@
+/* ANIMACIÓN- INDEX */
+.overlay {
+    height: 100%;    
+}
+
+.overlay__precio {
+    color: #579684;
+    font-size: 0;
+}
+
+.combosdelmes:hover .overlay__precio {
+    color:white;
+    font-family: $tipografiaTitulos;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 550;
+    font-size: 22px;
+    transform: translate(0%, 20%);
+    transition: 1.5s;
+}
+.overlay__texto{
+    color: white;
+    font-family: $tipografiaBody;
+    font-size: 10pt;
+    margin-bottom: 0;
+}

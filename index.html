@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="COSMETICA, NATURAL, VEGANO, CRUELTYFREE, ARTESANAL">
+
+  <meta name="description"
+    content="Es una alternativa a los cosméticos convencionales que se encuentran masivamente en el mercado. Las materias primas proceden de plantas. Los productos no están testeados en animales ni contienen materias primas procedentes de ellos">
+
+  <title>Artemisa</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/0a84ca147c.js" crossorigin="anonymous"></script>
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./img/logosinfondo.png">
+
+  <!-- TOASTIFY -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script defer src="/JS/scripts.js"></script>
+    <script defer src="/JS/librerias.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/estilos.css">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="./img/logosinfondo.png" alt="Artemisa" class="navbar-brand" href="/index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./pages/productos.html"><strong> Todos los productos</strong></a>
+                </li>
+                <li><a class="dropdown-item" href="#">Línea capilar</a></li>
+                <li><a class="dropdown-item" href="#">Línea facial</a></li>
+                <li><a class="dropdown-item" href="#">Línea corporal</a></li>
+                <li><a class="dropdown-item" href="#">Línea cuidado e higiene</a></li>
+                <li><a class="dropdown-item" href="#">Accesorios BIO</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/mayoristas.html">Mayoristas</a>
+            </li>
+          </ul>
+          <a class="miCarrito" href="/pages/carrito.html">
+            <div class="carrito">
+              <i class="fa-regular fa-cart-shopping" href="carrito.html"></i>
+              <p class="circle" id="circle">0</p>
+            </div>
+          </a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sectioncarousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+              <source srcset="img/banner1-mobile.png" media="(min-width: 320px) and (max-width: 620px)">
+              <source srcset="img/banner1-tablet.png" media="(min-width: 621px) and (max-width: 940px)">
+              <img src="img/banner1.png" class="d-block w-100" alt="banner1">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source srcset="img/banner2-mobile.png" media="(min-width: 320px) and (max-width: 620px)">
+              <source srcset="img/banner2-tablet.png" media="(min-width: 621px) and (max-width: 940px)">
+              <img src="img/banner2.png" class="d-block w-100" alt="banner2">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source srcset="img/banner3-mobile.png" media="(min-width: 320px) and (max-width: 620px)">
+              <source srcset="img/banner3-tablet.png" media="(min-width: 621px) and (max-width: 940px)">
+              <img src="img/banner3.png" class="d-block w-100" alt="banner3">
+            </picture>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <section class="section-informative">
+    <div class="section-informative-banner">
+      <i class="fa-solid fa-truck"></i>
+      <h6>Envíos a todo el país</h6>
+    </div>
+    <div class="section-informative-banner">
+      <i class="fa-solid fa-credit-card"></i>
+      <h6>Todos los medios de pago</h6>
+    </div>
+    <div class="section-informative-banner">
+      <a href="https://wa.me/message/K5VOX32EIPHRM1"><i class="fa-brands fa-whatsapp"></i></a>
+      <h6>Contactate con nosotros</h6>
+    </div>
+    <div class="section-informative-banner">
+      <i class="fa-solid fa-motorcycle"></i>
+      <h6>Envíos gratis en Paraná</h6>
+    </div>
+  </section>
+
+
+  <h2><strong>Combos del mes</strong></h2>
+  <section class="combos">
+    <div class="combosdelmes">
+      <img class="combosdelmes__imagen" src="./img/20210603_100905.jpg" alt="Combo 1">
+      <p class="combosdelmes__texto">Combo 1</p>
+      <p class="overlay__texto">Bubble + Sérum de Ácido hialurónico + Crema facial</p>
+      <div class="overlay">
+        <h4 class="overlay__precio">$1620</h4>
+        <button class="btnCombo" id="btnToastify"><i class="fa-regular fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+    <div class="combosdelmes">
+      <img class="combosdelmes__imagen" src="./img/20210603_095951.jpg" alt="Combo 2">
+      <p class="combosdelmes__texto">Combo 2</p>
+      <p class="overlay__texto">Crema corporal Rosa mosqueta + Aceite de coco + Jabón corporal</p>
+      <div class="overlay">
+        <h4 class="overlay__precio">$1500</h4>
+        <button class="btnCombo" id="btnToastify"><i class="fa-regular fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+    <div class="combosdelmes">
+      <img class="combosdelmes__imagen" src="./img/20210702_120533.jpg" alt="Combo 3">
+      <p class="combosdelmes__texto">Combo 3</p>
+      <p class="overlay__texto">Champú sólido + Acondicionador sólido</p>
+      <div class="overlay">
+        <h4 class="overlay__precio">$980</h4>
+        <button class="btnCombo" id="btnToastify"><i class="fa-regular fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+    <div class="combosdelmes">
+      <img class="combosdelmes__imagen" src="./img/20210802_104855.jpg" alt="Combo 4">
+      <p class="combosdelmes__texto">Combo 4</p>
+      <p class="overlay__texto">Champú sólido + Acondicionador en crema</p>
+      <div class="overlay">
+        <h4 class="overlay__precio">$1300</h4>
+        <button class="btnCombo" id="btnToastify"><i class="fa-regular fa-cart-shopping"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <h2><strong>Categorías</strong></h2>
+  <div class="container">
+    <div class="linea">
+      <img src="./img/20210331_104932.jpg" class="card-img-top" alt="Línea capilar">
+      <div class="linea-body">
+        <p class="linea-tittle">Línea capilar</p>
+      </div>
+    </div>
+    <div class="linea">
+      <img src="./img/20200830_163258.jpg" class="card-img-top" alt="Línea facial">
+      <div class="linea-body">
+        <p class="linea-tittle">Línea facial</p>
+      </div>
+    </div>
+    <div class="linea">
+      <img src="./img/20210702_120951.jpg" class="card-img-top" alt="Línea corporal">
+      <div class="linea-body">
+        <p class="linea-tittle">Línea corporal</p>
+      </div>
+    </div>
+  </div>
+
+
+  <h2>¿Sabés como colocarte nuestros sérum?</h2>
+  <p class="serum">En este video te mostramos como colocarlo</p>
+  <div class="video-responsive">
+    <video class="video-responsive" width="80%" controls autoplay>
+      <source src="./img/diseno-sin-titulo_qthU2eoC.mp4" type="video/mp4">
+  </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <section class="footer__bem">
+      <div class="footer__bem__categoria1">
+        <h3>Categorías</h3>
+        <ul class="categoria-paginas">
+          <li><a class="categoria__paginas" href="/index.html">Inicio</a> </li>
+          <li><a class="categoria__paginas" href="./pages/productos.html">Productos</a></li>
+          <li><a class="categoria__paginas" href="./pages/contacto.html">Contacto</a></li>
+          <li><a class="categoria__paginas" href="./pages/nosotros.html">Nosotros</a></li>
+          <li><a class="categoria__paginas" href="./pages/mayoristas.html">Mayoristas</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__bem__categoria2">
+        <h3>Contáctanos</h3>
+        <a href="https://wa.me/message/K5VOX32EIPHRM1"> <img src="./img/klipartz.com (5).png" alt="Whatsapp"></a>
+        <p>343-5002163</p>
+        <img src="./img/klipartz.com (6).png" alt="email">
+        <p>artemisacosmeticanat@gmail.com</p>
+      </div>
+
+      <div class="footer__bem__categoria3">
+        <h3>Siguenos</h3>
+        <a href="https://www.facebook.com/artemisa.CN"><img src="./img/61045.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/artemisacn/"><img src="./img/klipartz.com (1).png" lt="Instagram"></a>
+      </div>
+    </section>
+  </footer>
+
+  <div class="copyright">
+    <p class="copyright__texto1">Copyright Artemisa. Cosmetica natural- 2022. Todos los derechos reservados. Creado
+      por
+      Micaela Barberis</p>
+  </div>
+
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

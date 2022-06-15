@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "productsNomber": "Champú sólido Coco y almendras",
+        "productPrice": 450,
+        "productImage": "../img/1.jpg"
+    },
+    {
+        "id": 1,
+        "productsNomber": "Champú sólido Argán y karité",
+        "productPrice": 450,
+        "productImage": "../img/2.jpg"
+    },
+    {
+        "id": 2,
+        "productsNomber": "Champú sólido Jojoba y bentonita",
+        "productPrice": 450,
+        "productImage": "../img/3.jpg"
+    },
+    {
+        "id": 3,
+        "productsNomber": "Acondicionador sólido",
+        "productPrice": 480,
+        "productImage": "../img/4.jpg"
+    },
+    {
+        "id": 4,
+        "productsNomber": "Champú sólido Ortiga y romero",
+        "productPrice":"470",
+        "productImage": "../img/5.jpg"
+    },
+    {
+        "id": 5,
+        "productsNomber": "Champú sólido Manzanilla y avena",
+        "productPrice":"470",
+        "productImage": "../img/6.jpg"
+    },
+    {
+        "id": 6,
+        "productsNomber": "Jabón corporal Rosa mosqueta",
+        "productPrice": "330",
+        "productImage":"../img/7.jpg"
+    },
+    {
+        "id": 7,
+        "productsNomber": "Jabón corporal Palta y amapola",
+        "productPrice": "330",
+        "productImage": "../img/8.jpg"
+    },
+    {
+        "id":8,
+        "productsNomber": "Jabón corporal karité",
+        "productPrice": "330",
+        "productImage": "../img/9.jpg"
+    },    
+    {
+        "id":9,
+        "productsNomber": "Tónico facial Ágata",
+        "productPrice": "450",
+        "productImage": "../img/10.jpg"
+    },
+    {
+        "id":10,
+        "productsNomber": "Tónico facial Glow",
+        "productPrice": "400",
+        "productImage": "../img/11.jpg"
+    },
+    {
+        "id":11,
+        "productsNomber": "Agua micelar",
+        "productPrice": "400",
+        "productImage": "../img/12.jpg"
+    },
+    {
+        "id":12,
+        "productsNomber": "Sérum facial Nocturno",
+        "productPrice": "700",
+        "productImage": "../img/13.jpg"
+    },
+    {
+        "id":13,
+        "productsNomber": "Sérum facial Ácido hialurónico",
+        "productPrice":"900",
+        "productImage":"../img/14.jpg"
+    },
+    {
+        "id":14,
+        "productsNomber": "Crema de manos",
+        "productPrice": "500",
+        "productImage": "../img/15.jpg"
+    },
+    {
+        "id":15,
+        "productsNomber": "BB Cream",
+        "productPrice":"950",
+        "productImage": "../img/16.jpg"
+    }
+]

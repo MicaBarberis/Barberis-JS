@@ -1,0 +1,81 @@
+$colorPrincipal: #579684;
+$colorSecundario: #8AA678;
+$colorTerciario: #A3BEB5;
+$tipografiaTitulos: 'Playfair Display', serif;
+$tipografiaBody: 'Mulish', sans-serif;
+
+.btn-outline-success:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.btn-outline-success:hover {
+    border-color:$colorSecundario;
+    background-color: $colorSecundario;
+}
+
+.btn:hover {
+    color:#ffffff;
+    border-color:$colorSecundario;
+}
+
+
+.btn {
+    background-color: $colorPrincipal;
+    color: white;
+    border: 0;
+    font-size: 12pt;
+}
+
+.button{
+    align-items: center;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary{
+    background-color: $colorTerciario;
+    color: white;
+    border-radius: 10px;
+    border-color: $colorTerciario;
+    padding: 0.5rem;
+    font-size: 12px;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+}
+
+.btn-primary:hover{
+    background-color: $colorSecundario;
+    color: white;
+}
+
+.boton{
+    text-align: center;
+}
+
+.boton-mayoristas{
+    background-color: $colorSecundario;
+    color: #000000;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 5%;
+    border: 0;
+    font-size: 12pt;
+}
+.boton-mayoristas:hover{
+    color: white;
+}
+
+.btnCombo{
+    background-color: white;
+    color: white;
+    border-radius: 10px;
+    border: #A3BEB5;
+    padding: 10px;
+
+}
+.fa-regular.fa-cart-shopping{
+    color: #000000;
+    font-size: 14pt;
+}

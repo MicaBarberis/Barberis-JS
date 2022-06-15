@@ -1,0 +1,184 @@
+$colorPrincipal: #579684;
+$colorSecundario: #8AA678;
+$colorTerciario: #A3BEB5;
+$tipografiaTitulos: 'Playfair Display', serif;
+$tipografiaBody: 'Mulish', sans-serif;
+
+/* ÍNDEX */
+.combos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+
+.combosdelmes {
+    display: flex;
+    flex-direction: column;
+    background-color: $colorTerciario;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    padding: 1.1rem;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2rem;
+
+    &__imagen {
+        border-radius:10px;
+        width:250px;
+    }
+
+    &__texto {
+        font-size: 25px;
+        font-family: $tipografiaTitulos;
+        border-radius: 10px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 0;
+}
+}
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+}
+
+.linea {
+    background-color: #A3BEB5;
+    border-radius: 10px;
+    margin: 1rem;
+    
+
+    &-body {
+        font-family: $tipografiaTitulos;
+        font-weight: 600;
+        font-size: 18pt;
+        text-align: center;
+        color:white;
+        padding: 30px;    
+    }
+    &-img-top {
+        border-top: 10px;
+        position: relative;
+    }
+}
+
+
+
+/* PRODUCTOS */
+.contenedor-productos{
+    display: flex;
+}
+
+.products {
+    border-radius: 20px;
+    border: 1px solid #b7c2bf;
+    margin: 1rem;
+    box-sizing: inherit; 
+    width: 10rem;
+
+    &-nomber {
+        font-family: $tipografiaBody;
+        font-size: 12pt;
+        text-align: center;
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 10px; 
+    }
+    &-img-top {
+        width: 100%;
+        border-top-left-radius:  20px;
+        border-top-right-radius: 20px;
+    }
+
+    &-precio{
+        font-family: $tipografiaBody;
+        padding-top: 0.5rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        color: #8AA678;
+    }
+}
+
+.todosproductos{
+display: flex;
+flex-wrap: wrap;
+    grid-template-rows: auto;
+}
+
+
+
+/* NOSOTROS */
+.card-text {
+    font-family: $tipografiaBody ;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    line-height: 1.5rem;
+}
+.card-subtitle {
+    font-size: 16pt;
+    color: $colorPrincipal;
+    font-family: $tipografiaTitulos;
+    text-align: center;
+    margin-top: 3rem;
+}
+.card-text2{
+    font-family: $tipografiaBody ;
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.5rem;
+}
+
+/* NOSOTROS */
+.card-text3 {
+    font-family: $tipografiaBody ;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.5rem;
+}
+.img-nosotros{
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    margin-bottom: 0.3rem;
+    max-width: 100%;
+}
+.video-responsive2{
+    border-radius: 10px;
+    opacity: 90%;
+    padding-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* MAYORISTAS */
+.img-fluid{
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    opacity: 80%;
+    margin-bottom: 0.3rem;
+}
+.card-title1{
+    font-family: $tipografiaTitulos;
+    font-size: 16pt;
+    font-weight: 600;
+    color: $colorSecundario;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+

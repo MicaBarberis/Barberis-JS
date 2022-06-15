@@ -1,0 +1,48 @@
+.carritoContainer{
+    max-width: 1000px;
+    min-height: 80vh;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.table__productos{
+    display: flex;
+}
+.table__img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.table__cantidad > input{
+    width: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.fa-solid{
+    font-size: 30px;
+    cursor: pointer;
+    color:dimgray;
+
+}
+
+.circle{
+    display: inline;
+    position: relative;
+    background-color: #8AA678;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 9px;
+    bottom: 20px;
+    right: 10px;
+}
+
+.table__date{
+    color:#579684;
+    font-size: 'Playfair Display', serif;
+}
