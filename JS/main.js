@@ -7,6 +7,9 @@ const templateCarrito = document.getElementById('template-carrito').content
 const fragment = document.createDocumentFragment()
 let carrito = {}
 
+
+//Incorporacion de Fetch
+
 document.addEventListener('DOMContentLoaded', () =>{
     fetchData()
     if(localStorage.getItem('carrito')) { //si existe algo en el carrito
@@ -36,6 +39,7 @@ const fetchData = async () => {
 }
 
 
+//Creación de las tarjetas de los productos, traídos del array del .json
 const addCard = data => {
     data.forEach(producto => {
         templateCard.querySelector('img').setAttribute ("src", producto.productImage) 
@@ -76,6 +80,8 @@ const setCarrito = objeto => {
     addCardToCarrito()
 }
 
+
+//Agregado de los productos al carrito
 const addCardToCarrito = () => {
     /* console.log(carrito) */
     items.innerHTML= ''
