@@ -181,7 +181,10 @@ h6 {
   background-color: #579684;
   color: white;
   border: 0;
-  font-size: 12pt; }
+  font-size: 12pt;
+  margin: 0 auto; 
+  text-align: center;
+}
 
 .button {
   align-items: center;
@@ -280,8 +283,28 @@ h6 {
     position: relative; }
 
 /* PRODUCTOS */
-.contenedor-productos {
-  display: flex; }
+
+  /*CARRITO*/
+
+.table>:not(caption)>*>* {
+text-align: center;
+}
+
+.Productos{
+  margin: 1rem;
+}
+
+.table{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.card-body{
+  padding: 0.5rem;
+}
 
 .products {
   border-radius: 20px;
@@ -294,7 +317,7 @@ h6 {
     font-size: 12pt;
     text-align: center;
     color: black;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px; }
   .products-img-top {
     width: 100%;
@@ -302,7 +325,6 @@ h6 {
     border-top-right-radius: 20px; }
   .products-precio {
     font-family: "Mulish", sans-serif;
-    padding-top: 0.5rem;
     text-align: center;
     font-weight: 600;
     font-size: 20px;
@@ -311,7 +333,16 @@ h6 {
 .todosproductos {
   display: flex;
   flex-wrap: wrap;
-  grid-template-rows: auto; }
+  margin: 0 auto;
+  grid-template-rows: auto; 
+}
+
+.btn-vaciar{
+  border: none;
+  background-color: white;
+  color: #579684;
+}
+
 
 /* NOSOTROS */
 .card-text {
@@ -501,7 +532,10 @@ h6 {
   .productImage {
     width: 9rem; }
   .btn-primary {
-    font-size: 9px; }
+    font-size: 9px;
+    margin: 0 auto;
+    align-items: center;
+  }
   /* MOVIL - CONTACTOS */
   .section {
     padding-left: 1rem;
@@ -579,6 +613,7 @@ h6 {
   .cardProducts {
     margin: 0.5rem; }
   .btn-primary {
+    margin: 0 auto;
     font-size: 9px; }
   /* TABLET CONTACTO */
   .ul {

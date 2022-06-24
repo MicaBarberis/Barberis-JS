@@ -61,6 +61,16 @@ const addCarrito = e => {
         setCarrito(e.target.parentElement)
     }
     e.stopPropagation()
+
+    /*NOTIFICACIÓN TOASTIFY*/
+    Toastify({
+        text: "Agregado al carrito",
+        duration: 2500,
+        position: 'right top',
+        style: {
+            background: 'linear-gradient(to right, #579684, #A3BEB5)',
+        }
+    }).showToast();
 }
 
 
@@ -97,17 +107,17 @@ const addCardToCarrito = () => {
     })
     items.appendChild(fragment)
 
-    addFooter()
+    addCarritoVacio()
 
     localStorage.setItem('carrito', JSON.stringify(carrito)) //guardamos la coleccion de objetos
 }
 
 
 
-const addFooter = () => {
+const addCarritoVacio = () => {
     footer.innerHTML = ''
     if(Object.keys(carrito).length === 0){
-        footer.innerHTML = '<th scope="row" colspan="5">Carrito vacio - no tienes productos agregados :( <img src="../img/empty_cart.png" alt="imagen de carrito vacio"></th>'
+        footer.innerHTML = `<h3>Carrito vacio :(</h3>`
         return
     }
 
@@ -123,10 +133,35 @@ const addFooter = () => {
 
     const btnVaciar = document.getElementById ('vaciar-carrito')
     btnVaciar.addEventListener('click', () => {
-        carrito ={}
-        addCardToCarrito()
+
+
+        /*Sweet Alert*/
+        Swal.fire({
+            title: 'Estás seguro de eliminar el carrito?',
+            color: '#579684',
+            width: 800,
+            padding: '2rem',
+            icon: 'warning',
+            confirmButtonText: 'Si, seguro',
+            cancelButtonText: 'No, no quiero',
+            showCancelButton: true,
+        })
+        .then ((result) =>{
+            if (result.isConfirmed) {
+                carrito ={}
+                addCardToCarrito()
+                Swal.fire({
+                    title: 'Carrito eliminado',
+                    color: '#579684',
+                    Image: '../img/empty_cart.png',
+                    confirmButtonText: 'Ok',
+                })  
+            }
+        })
     })
 }
+
+
 
 
 const btnAccion = e => {
